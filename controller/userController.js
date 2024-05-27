@@ -31,7 +31,7 @@ exports.loginFunction = (req, res) => {
           {
               email: email
           },
-          process.env.secret_key,
+         "DataEvolve@112",
           {
               expiresIn: '1h' // Defines the expiration time of the token
           }
